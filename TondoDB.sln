@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TondoDB", "TondoDB.csproj", "{1922CC50-8A3C-43D7-9AE1-75CF8C244CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1922CC50-8A3C-43D7-9AE1-75CF8C244CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1922CC50-8A3C-43D7-9AE1-75CF8C244CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1922CC50-8A3C-43D7-9AE1-75CF8C244CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1922CC50-8A3C-43D7-9AE1-75CF8C244CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C97708-92C6-418D-B6E2-FF2521596A08}
+	EndGlobalSection
+EndGlobal
