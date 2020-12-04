@@ -74,6 +74,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ToodedDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ToodedDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ToodedDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,18 +111,30 @@
     <None Include="ToodedDataSet.xss">
       <DependentUpon>ToodedDataSet.xsd</DependentUpon>
     </None>
+    <None Include="ToodedDataSet1.xsc">
+      <DependentUpon>ToodedDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ToodedDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ToodedDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ToodedDataSet1.xss">
+      <DependentUpon>ToodedDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AppData\Tooded.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="AppData\Tooded_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Tooded.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\piim.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
